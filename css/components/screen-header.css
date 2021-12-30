@@ -14,4 +14,12 @@
 
 .screen-header__icons span {
   margin-left: 25px;
+  position: relative;
+}
+
+.screen-header__cog {
+  display: flex;
+  position: absolute;
+  right: -6px;
+  top: -3px;
 }
