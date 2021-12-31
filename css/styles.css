@@ -11,6 +11,7 @@
 @import "components/badge.css";
 @import "components/icon-row.css";
 @import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -21,6 +22,8 @@
 @import "screens/chat.css";
 
 body {
+  height: 100vh;
+  width: 100vw;
   font-family: "Roboto", sans-serif;
   color: #2e363e;
   background-color: whitesmoke;
