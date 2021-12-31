@@ -15,6 +15,7 @@
 
 .friends-screen {
   padding: 0px var(--horizontal-space);
+  padding-bottom: 50px;
 }
 
 .friends-screen__channel {
@@ -24,6 +25,19 @@
 }
 
 .friends-screen__channel-header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--gray);
+}
+
+.friends-screen__friends {
+  margin-top: 25px;
+  border-top: var(--main-border);
+  padding-top: 15px;
+}
+
+.friends-screen__friends-header {
   margin-bottom: 30px;
   display: flex;
   justify-content: space-between;
@@ -40,7 +54,9 @@
   }
 }
 
-#splash-screen {
+/*screen*/
+
+#splash-scree {
   background-color: var(--yellow);
   position: absolute;
   height: 100vh;
