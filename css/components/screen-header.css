@@ -33,6 +33,10 @@
   }
 }
 
+.screen-header__icons i:hover {
+  cursor: pointer;
+}
+
 .screen-header__icons .fa-cog:hover {
   animation: rotateCog 2.2s linear infinite;
 }
