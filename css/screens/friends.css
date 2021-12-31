@@ -54,9 +54,7 @@
   }
 }
 
-/*screen*/
-
-#splash-scree {
+#splash-screen {
   background-color: var(--yellow);
   position: absolute;
   height: 100vh;
