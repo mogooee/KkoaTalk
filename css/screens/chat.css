@@ -124,14 +124,14 @@
 }
 
 .reply__column:last-child > i {
-  right: 33px;
+  right: 65px;
   top: 17px;
 }
 
 .reply input {
   padding: 10px;
   height: 30px;
-  width: 100%;
+  width: 95%;
   border: var(--main-border);
   border-radius: 20px;
 }
@@ -143,7 +143,7 @@
   width: 45px;
   height: 45px;
   top: 3.3px;
-  right: -19px;
+  right: 11px;
 }
 
 .reply__column button:focus,
